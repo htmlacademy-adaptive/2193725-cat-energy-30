@@ -130,7 +130,11 @@
           <p class="location__title">приглашаем к сотрудничеству дилеров!</p>
           <address class="location__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
         </div>
-        <img class="location__map" src="" alt="карта города Санкт-Петербург" width="320" height="362">
+        <picture>
+          <source type="image/png" media="(min-width: 1200px)" srcset="source/images/desktop-map@1x.png, source/images/desktop-map@2x.png" width="1440" height="400">
+          <source type="image/png" media="(min-width: 768px)" srcset="source/images/tablet-map2x@1x.png, source/images/tablet-map2x@2x.png" width="768" height="400">
+          <img class="location__map" src="source/images/mobile-map@1x.png" srcset="source/images/mobile-map@2x.png" alt="карта города Санкт-Петербург" width="320" height="362">
+        </picture>
       </section>
     </main>
 

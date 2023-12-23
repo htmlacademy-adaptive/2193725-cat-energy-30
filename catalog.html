@@ -44,7 +44,9 @@
           <ul class="product-cards__list">
             <li class="product-cards__item">
               <a class="product-cards__link link-image" href="hotel.html">
-                <img class="product-cards__image" src="#" alt="кошачий корм" width="68" height="86">
+                <source type="image/png" media="(min-width: 1200px)" srcset="source/images/chicken-small-tablet@1x.png, source/images/chicken-small-tablet@2x.png" width="161" height="172">
+                <source type="image/png" media="(min-width: 768px)" srcset="source/images/chicken-small-tablet@1x.png, source/images/chicken-small-tablet@2x.png" width="161" height="172">
+                <img class="product-cards__image" src="source/images/chicken-small-mobile@1x.png" srcset="source/images/chicken-small-mobile@2x.png" alt="кошачий корм" width="68" height="86">
               </a>
               <a class="product-cards__link" href="#">
                 <h3 class="product-cards__name">Cat Energy PRO 500 г</h3>
@@ -183,8 +185,20 @@
           </li>
         </ul>
         <div class="present">
-          <p class="present__title icon-gift"></p>
+          <p class="present__title icon-gift">Закажите все и получите чехол для кота в подарок!</p>
         </div>
+      </section>
+      <section class="location">
+        <h3 class="visually-hidden">адрес</h3>
+        <div class="location__contacts">
+          <p class="location__title">приглашаем к сотрудничеству дилеров!</p>
+          <address class="location__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        </div>
+        <picture>
+          <source type="image/png" media="(min-width: 1200px)" srcset="source/images/desktop-map@1x.png, source/images/desktop-map@2x.png" width="1440" height="400">
+          <source type="image/png" media="(min-width: 768px)" srcset="source/images/tablet-map2x@1x.png, source/images/tablet-map2x@2x.png" width="768" height="400">
+          <img class="location__map" src="source/images/mobile-map@1x.png" srcset="source/images/mobile-map@2x.png" alt="карта города Санкт-Петербург" width="320" height="362">
+        </picture>
       </section>
     </main>
 
