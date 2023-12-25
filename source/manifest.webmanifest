@@ -1,17 +1,17 @@
 {
   "icons": [
     {
-      "src": "",
+      "src": "favicons/192.png",
       "typ": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "",
+      "src": "favicons/180.png",
       "typ": "image/png",
-      "sizes": "256x256"
+      "sizes": "180x180"
     },
     {
-      "src": "",
+      "src": "favicons/512.png",
       "typ": "image/png",
       "sizes": "512x512"
     }
