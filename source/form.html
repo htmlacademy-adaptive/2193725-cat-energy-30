@@ -81,54 +81,52 @@
                   </li>
                 </ul>
             </fieldset>
+            <fieldset class="user-data">
+              <legend class="user-data__title">контактные данные (владельца кота)</legend>
+                <ul class="user-data__list">
+                  <li class="user-data__item">
+                    <label class="user-data__item-label" for="email">E-mail:*</label>
+                    <input class="user-data__item-input" type="email" name="name" placeholder="kuklachev@gmail.com" id="email">
+                  </li>
+                  <li class="user-data__item-label">
+                    <label class="user-data__item-label" for="phone">Телефон:*</label>
+                    <input class="user-data__item-input" type="text" name="phone" placeholder="8 (960) 900-60-90" id="phone">
+                  </li>
+                </ul>
+            </fieldset>
+            <div class="comments">
+              <h2 class="comments__title">комментарий</h2>
+              <textarea class="comments__textarea" name="habits" id="habits" cols="28" rows="15" placeholder="расскажите обо всех повадках кота"></textarea>
+            </div>
+            <fieldset class="additionally">
+              <legend class="additionally__title">Дополнительно</legend>
+                <ul class="additionally__list">
+                  <li class="additionally__item">
+                    <input class="additionally__input additionally__input--checked" type="checkbox" name="sugar-substitute" id="sweetener" checked>
+                    <label class="additionally__label" for="sweetener">сахарозаменитель</label>
+                  </li>
+                  <li class="additionally__item">
+                    <input class="additionally__input" type="checkbox" name="water" id="water">
+                    <label class="additionally__label" for="water">питьевая вода</label>
+                  </li>
+                  <li class="additionally__item">
+                    <input class="additionally__input" type="checkbox" name="milk" id="milk">
+                    <label class="additionally__label" for="milk">молоко</label>
+                  </li>
+                  <li class="additionally__item">
+                    <input class="additionally__input" type="checkbox" name="vitamins" id="vitamins">
+                    <label class="additionally__label" for="vitamins">витамины</label>
+                  </li>
+                </ul>
+            </fieldset>
+            <button class="checklist__btn button" type="button">отправить заявку</button>
+              <p class="checklist__legend">
+                <small>
+                  * — Обязательные поля
+                </small>
+              </p>
           </form>
       </section>
-      <form class="user-data" action="#" method="post">
-        <fieldset class="user-data__fieldset">
-          <legend class="user-data__title">контактные данные (владельца кота)</legend>
-            <ul class="user-data__list">
-              <li class="user-data__item">
-                <label class="user-data__item-label" for="email">E-mail:*</label>
-                <input class="user-data__item-input" type="email" name="name" placeholder="kuklachev@gmail.com" id="email">
-              </li>
-              <li class="user-data__item-label">
-                <label class="user-data__item-label" for="phone">Телефон:*</label>
-                <input class="user-data__item-input" type="text" name="phone" placeholder="8 (960) 900-60-90" id="phone">
-              </li>
-            </ul>
-        </fieldset>
-        <div class="comments">
-          <h2 class="comments__title">комментарий</h2>
-          <textarea class="user-data__textarea" name="habits" id="habits" cols="28" rows="15" placeholder="расскажите обо всех повадках кота"></textarea>
-        </div>
-        <fieldset class="additionally">
-          <legend class="additionally__title">Дополнительно</legend>
-          <ul class="additionally__list">
-            <li class="additionally__item">
-              <input class="additionally__input additionally__input--checked" type="checkbox" name="sugar-substitute" id="sweetener" checked>
-              <label class="additionally__label" for="sweetener">сахарозаменитель</label>
-            </li>
-            <li class="additionally__item">
-              <input class="additionally__input" type="checkbox" name="water" id="water">
-              <label class="additionally__label" for="water">питьевая вода</label>
-            </li>
-            <li class="additionally__item">
-              <input class="additionally__input" type="checkbox" name="milk" id="milk">
-              <label class="additionally__label" for="milk">молоко</label>
-            </li>
-            <li class="additionally__item">
-              <input class="additionally__input" type="checkbox" name="vitamins" id="vitamins">
-              <label class="additionally__label" for="vitamins">витамины</label>
-            </li>
-          </ul>
-        </fieldset>
-        <button class="user-data__btn button" type="button">отправить заявку</button>
-        <p class="user-data__legend">
-          <small>
-            * — Обязательные поля
-          </small>
-        </p>
-      </form>
       <section class="location">
         <h3 class="visually-hidden">адрес</h3>
         <div class="location__contacts">
