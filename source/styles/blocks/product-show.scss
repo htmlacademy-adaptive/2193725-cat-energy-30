@@ -1,15 +1,21 @@
 .product-show {
 background-color: #FFFFFF;
+
 }
 
 .product-show__name {
+  font-family: "Oswald", sans-serif;
 
 }
 
 .product-show__subtitle {
+  font-size: 16px;
+  line-height: 18px;
 
 }
 
 .product-show__button {
-
+  background-color: $bg-basic-grey;
+  color: $base-color-text;
+  padding: 10px 80px;
 }
