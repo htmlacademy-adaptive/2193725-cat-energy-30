@@ -3,7 +3,10 @@
 }
 
 .product-cards__title {
-
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  color: #000000;
 }
 
 .product-cards__list {
@@ -11,6 +14,7 @@
 }
 
 .product-cards__item {
+  background-color: $bg-basic-grey;
 
 }
 
@@ -23,15 +27,21 @@
 }
 
 .product-cards__name {
-
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  color: #222222;
 }
 
 .product-cards__basic {
-
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .product-cards__description {
-
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .product-cards__button {
