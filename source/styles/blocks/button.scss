@@ -1,9 +1,16 @@
 .button {
-  font-family: "Oswald";
+  // font-family: "Oswald";
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   background-color: $bg-basic-green;
   color: $button-color-text;
   border: none;
+  min-width: 280px;
+}
+
+.button--secondary {
+  background-color: $bg-basic-grey;
+  color: $base-color-text;
+  // padding: 10px 80px;
 }

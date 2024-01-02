@@ -4,7 +4,10 @@
 
 
 .user-data__title {
-
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: $base-color-title;
 }
 
 .user-data__list {

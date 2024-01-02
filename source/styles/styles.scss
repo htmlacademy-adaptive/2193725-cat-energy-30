@@ -1,5 +1,6 @@
 /* GLOBAL */
 @import "./global/variables.scss";
+@import "./global/mixins.scss";
 @import "./global/fonts.scss";
 @import "./global/global.scss";
 
@@ -25,12 +26,12 @@
 @import "./blocks/social.scss";
 @import "./blocks/copyright.scss";
 @import "./blocks/checklist.scss";
+@import "./blocks/label-for.scss";
 @import "./blocks/radio-button.scss";
 @import "./blocks/user-data.scss";
 @import "./blocks/comments.scss";
 @import "./blocks/additionally.scss";
 @import "./blocks/product-cards.scss";
-@import "./blocks/product-show.scss";
 @import "./blocks/additionally-cards.scss";
 @import "./blocks/present.scss";
 @import "./blocks/icon-gift.scss";

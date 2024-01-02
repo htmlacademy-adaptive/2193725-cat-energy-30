@@ -1,7 +1,9 @@
 .present {
-
+background: #6CB044 url("/source/images/prize-background-mobile@2x.jpg") no-repeat center top;
 }
 
 .present__title {
-
+  font-size: 16px;
+  line-height: 20px;
+  color: $button-color-text;
 }

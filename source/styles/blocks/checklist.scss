@@ -1,13 +1,26 @@
 .checklist {
-
-}
+//   font-family: "Oswald", sans-serif;
+//   font-size: 20px;
+//   line-height: 30px;
+//   font-weight: 400;
+//   text-transform: uppercase;
+//   color: $base-color-text
+// }
 
 .checklist__title {
-
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  color: $base-color-title;
 }
 
 .checklist__subtitle {
-
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $base-color-title;
 }
 
 .checklist__form {
