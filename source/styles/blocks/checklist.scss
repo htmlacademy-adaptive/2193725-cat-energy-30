@@ -1,11 +1,11 @@
-.checklist {
-//   font-family: "Oswald", sans-serif;
-//   font-size: 20px;
-//   line-height: 30px;
-//   font-weight: 400;
-//   text-transform: uppercase;
-//   color: $base-color-text
-// }
+// .checklist {
+// //   font-family: "Oswald", sans-serif;
+// //   font-size: 20px;
+// //   line-height: 30px;
+// //   font-weight: 400;
+// //   text-transform: uppercase;
+// //   color: $base-color-text
+// // }
 
 .checklist__title {
   font-family: "Oswald", sans-serif;
@@ -21,36 +21,37 @@
   line-height: 30px;
   font-weight: 400;
   color: $base-color-title;
+  text-transform: uppercase;
 }
 
-.checklist__form {
+// .checklist__form {
 
-}
+// }
 
-.checklist__fieldset {
+// .checklist__fieldset {
 
-}
+// }
 
-.checklist__list {
+// .checklist__list {
 
-}
+// }
 
-.checklist__item {
+// .checklist__item {
 
-}
+// }
 
-.checklist__item-label {
+// .checklist__item-label {
 
-}
+// }
 
-.checklist__item-input {
+// .checklist__item-input {
 
-}
+// }
 
 .checklist__btn {
-
+  padding: 10px;
 }
 
-.checklist__legend {
+// .checklist__legend {
 
-}
+// }
