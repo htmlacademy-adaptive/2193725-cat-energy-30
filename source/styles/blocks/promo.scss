@@ -1,0 +1,26 @@
+.promo {
+  background: #6CB044 url("/source/images/index-background-desktop2@1x.jpg") no-repeat center top;
+}
+
+.promo__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: $button-color-text;
+}
+
+.promo__slogan {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: $button-color-text;
+}
+
+.promo__button {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px;
+}

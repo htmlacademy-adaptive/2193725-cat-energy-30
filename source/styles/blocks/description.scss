@@ -1,0 +1,43 @@
+// .description {
+
+
+// }
+
+// .description__list {
+
+
+// }
+
+// .description__item {
+
+
+// }
+
+.description__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: $base-color-title;
+  text-transform: uppercase;
+}
+
+.description__icon {
+  background: #6CB044;
+}
+
+.description__subtitle {
+  font-size: 14px;
+  line-height: 18px;
+  color: $base-color-text;
+}
+
+.description__link {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $base-color-title;
+  text-transform: uppercase;
+  text-decoration: none;
+}

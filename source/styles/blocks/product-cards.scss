@@ -1,0 +1,67 @@
+// .product-cards {
+
+// }
+
+.product-cards__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #000000;
+}
+
+// .product-cards__list {
+
+// }
+
+.product-cards__item {
+  background-color: #FFFFFF;
+}
+
+.product-cards__link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+// .product-cards__image {
+
+// }
+
+.product-cards__name {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  color: #222222;
+}
+
+.product-cards__basic {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product-cards__description {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product-cards__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  color: #111111;
+}
+
+.product-cards__subtitle {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product-cards__button {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+

@@ -1,7 +1,38 @@
 /* GLOBAL */
 @import "./global/variables.scss";
-@import "./global/global.scss";
+@import "./global/mixins.scss";
 @import "./global/fonts.scss";
+@import "./global/global.scss";
+
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/page.scss";
+@import "./blocks/title.scss";
+@import "./blocks/page-container.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/site-list.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/button.scss";
+@import "./blocks/description.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/example.scss";
+@import "./blocks/stats.scss";
+@import "./blocks/compare-slider.scss";
+@import "./blocks/location.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/copyright.scss";
+@import "./blocks/checklist.scss";
+@import "./blocks/input-unified.scss";
+@import "./blocks/label-for.scss";
+@import "./blocks/radio-button.scss";
+@import "./blocks/user-data.scss";
+@import "./blocks/comments.scss";
+@import "./blocks/additionally.scss";
+@import "./blocks/product-cards.scss";
+@import "./blocks/additionally-cards.scss";
+@import "./blocks/present.scss";
+@import "./blocks/icon-gift.scss";
