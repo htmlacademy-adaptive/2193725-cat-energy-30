@@ -14,7 +14,7 @@
 // }
 
 .description__title {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-size: 24px;
   line-height: 37px;
   font-weight: 400;
@@ -23,7 +23,10 @@
 }
 
 .description__icon {
-  background: #6CB044;
+  background: $bg-basic-green;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 .description__subtitle {
@@ -33,7 +36,7 @@
 }
 
 .description__link {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;

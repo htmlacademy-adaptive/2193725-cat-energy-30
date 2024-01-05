@@ -3,11 +3,11 @@
 // }
 
 .product-cards__title {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  color: #000000;
+  color: $base-color-title;
 }
 
 // .product-cards__list {
@@ -15,7 +15,7 @@
 // }
 
 .product-cards__item {
-  background-color: #FFFFFF;
+  background-color: $inline-color-text;
 }
 
 .product-cards__link {
@@ -28,12 +28,12 @@
 // }
 
 .product-cards__name {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   align-items: center;
-  color: #222222;
+  color: $special-grey2;
 }
 
 .product-cards__basic {
@@ -47,12 +47,12 @@
 }
 
 .product-cards__text {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   align-items: center;
-  color: #111111;
+  color: $special-dark-grey;
 }
 
 .product-cards__subtitle {
@@ -61,7 +61,7 @@
 }
 
 .product-cards__button {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   padding: 10px;
 }
 

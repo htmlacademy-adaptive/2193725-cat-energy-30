@@ -10,6 +10,34 @@
 
 // }
 
-// .social__link {
+.social__link:hover,
+.social__link:focus {
+  background-color: $bg-basic-green;
+}
 
-// }
+.social__link:active {
+  background-color: $bg-basic-green;
+  opacity: 0.3;
+}
+
+.social__link--vk {
+  content: "";
+  display: block;
+  mask-image: url("../../images/icons/stack.svg#vkontakte");
+  background-color: $special-grey3;
+}
+
+.social__link--youtube {
+  content: "";
+  display: block;
+  mask-image: url("../../images/icons/stack.svg#youtube");
+  background-color: $special-grey3;
+}
+
+.social__link--tme {
+  content: "";
+  display: block;
+  mask-image: url("../../images/icons/stack.svg#telegram");
+  background-color: $special-grey3;
+}
+

@@ -1,10 +1,10 @@
 .button {
-  // font-family: "Oswald";
+  font-family: $primary-font;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   background-color: $bg-basic-green;
-  color: $button-color-text;
+  color: $inline-color-text;
   border: none;
   min-width: 280px;
 }
