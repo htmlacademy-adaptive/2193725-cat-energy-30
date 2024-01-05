@@ -1,9 +1,19 @@
 .present {
-  background: #6CB044 url("/source/images/prize-background-mobile@2x.jpg") no-repeat center top;
+  background: $bg-basic-green url("../images/prize-background-mobile@2x.jpg") no-repeat center top;
+  width: 280px;
+  height: 280px;
 }
 
 .present__title {
   font-size: 16px;
   line-height: 20px;
-  color: $button-color-text;
+  color: $inline-color-text;
+}
+
+.present__title::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/icons/stack.svg#icon-present") no-repeat center top;
+  width: 78px;
+  height: 80px;
 }
