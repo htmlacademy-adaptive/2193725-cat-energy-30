@@ -1,6 +1,14 @@
-// .site-list {
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 463px;
+  }
+}
 
-// }
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 475px;
+  }
+}
 
 .site-list__link {
   text-decoration: none;

@@ -6,6 +6,13 @@
 
 // }
 
+.copyright__link {
+  content: "";
+  display: block;
+  mask-image: url("../../images/icons/stack.svg#html-academy");
+  background-color: $special-grey3;
+}
+
 .copyright__link:hover,
 .copyright__link:focus {
   background-color: $bg-basic-green;
@@ -16,9 +23,4 @@
   opacity: 0.3;
 }
 
-.copyright-img {
-  content: "";
-  display: block;
-  mask-image: url("../../images/icons/stack.svg#html-academy");
-  background-color: $special-grey3;
-}
+
