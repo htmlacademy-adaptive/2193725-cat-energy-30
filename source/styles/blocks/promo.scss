@@ -1,5 +1,9 @@
 .promo {
   background: $bg-basic-green url("/source/images/index-background-desktop2@1x.jpg") no-repeat center top;
+
+  @media (min-width: $tablet-width) {
+    background: url("/source/images/index-background-desktop2@1x.jpg") no-repeat center top;
+  }
 }
 
 .promo__title {

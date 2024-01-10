@@ -1,3 +1,17 @@
-// .page-container {
+.page-container {
+  max-width: 280px;
+  width: 100%;
+  padding: 0 20px;
 
-// }
+  @media (min-width: $tablet-width) {
+    max-width: 709px;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 110px;
+  }
+}

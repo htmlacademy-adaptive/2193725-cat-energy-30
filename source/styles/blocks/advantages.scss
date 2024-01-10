@@ -27,9 +27,9 @@
   list-style: none;
 
   @media (min-width: $tablet-width) {
-    width: 708px;
+    // width: 708px;
     display: grid;
-    grid-template-columns: 230px 246px;
+    grid-template-columns: auto auto;
     row-gap: 77px;
     column-gap: 137px;
   }
