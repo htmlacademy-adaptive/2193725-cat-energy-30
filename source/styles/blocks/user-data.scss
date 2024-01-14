@@ -10,9 +10,11 @@
   color: $base-color-title;
 }
 
-// .user-data__list {
-
-// }
+.user-data__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 // .user-data__item {
 
@@ -22,6 +24,16 @@
 
 // }
 
-// .user-data__item-input {
+.user-data__item-input {
+  font-size: 16px;
+  line-height: 18px;
+}
 
-// }
+.user-data__item-input::after {
+  content: "";
+  display: block;
+  mask-image: url("../../images/icons/stack.svg#email-stroke");
+  width: 20px;
+  height: 20px;
+  background-color: $special-grey3;
+}

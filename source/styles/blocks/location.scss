@@ -3,9 +3,11 @@
 
 // }
 
-// .location__contacts {
-
-// }
+.location__contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0;
+}
 
 .location__title {
   font-family: $secondary-font;
@@ -13,6 +15,7 @@
   line-height: 26px;
   text-transform: uppercase;
   color: $special-dark-grey;
+  margin: 0;
 }
 
 .location__text {

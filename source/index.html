@@ -2,7 +2,7 @@
 <html class="page" lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>cat energy</title>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml" sizes="32x32" >
@@ -29,6 +29,7 @@
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
+        <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a class="site-list__link site-list__link--current" href="index.html" aria-current="page">главная</a>
@@ -40,6 +41,7 @@
               <a class="site-list__link" href="form.html">подбор программы</a>
             </li>
           </ul>
+        </div>
       </nav>
     </header>
 
@@ -60,9 +62,9 @@
           <li class="description__item">
             <h3 class="description__title">похудение</h3>
             <picture>
-              <source type="image/svg+xml" media="(min-width: 1200px)" srcset="images/icons/cat-slim.svg" width="70" height="87">
-              <source  type="image/svg+xml" media="(min-width: 768px)" srcset="images/icons/cat-slim.svg" width="140" height="194">
-              <img class="description__icon" src="images/icons/cat-slim.svg" alt="худой кот" width="36" height="50">
+              <source type="image/svg+xml" media="(min-width: 1200px)" srcset="images/icons/cat-slim.svg" width="100" height="106">
+              <source  type="image/svg+xml" media="(min-width: 768px)" srcset="images/icons/cat-slim.svg" width="200" height="211">
+              <img class="description__icon" src="images/icons/cat-slim.svg" alt="худой кот" width="50" height="53">
             </picture>
             <p class="description__subtitle">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
             <a class="description__link" href="catalog.html">каталог slim</a>
@@ -70,9 +72,9 @@
           <li class="description__item">
             <h3 class="description__title">набор массы</h3>
             <picture>
-              <source type="image/svg+xml" media="(min-width: 1200px)" srcset="images/icons/cat-pro.svg" width="134" height="56">
-              <source  type="image/svg+xml" media="(min-width: 768px)" srcset="images/icons/cat-pro.svg" width="268" height="112">
-              <img class="description__icon" src="images/icons/cat-pro.svg" alt="кот" width="66" height="28">
+              <source type="image/svg+xml" media="(min-width: 1200px)" srcset="images/icons/cat-pro.svg" width="134" height="100">
+              <source  type="image/svg+xml" media="(min-width: 768px)" srcset="images/icons/cat-pro.svg" width="268" height="200">
+              <img class="description__icon" src="images/icons/cat-pro.svg" alt="кот" width="67" height="50">
             </picture>
             <p class="description__subtitle">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
             <a class="description__link" href="catalog.html">каталог pro</a>
@@ -104,44 +106,48 @@
 
       <section class="example">
         <h2 class="example__intro">Живой пример</h2>
-        <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-        <dl class="stats">
-          <div class="stats__item">
-            <dt class="stats__numder">
-              <P>5 кг</P>
-            </dt>
-            <dd class="stats__description">
-            снижение веса
-            </dd>
-          </div>
-          <div class="stats__item">
-            <dt class="stats__numder">
-              <p>60 дней</p>
-            </dt>
-            <dd class="stats__description">
-            затрачено времени
-            </dd>
-          </div>
-        </dl>
-        <p class="example__text example__text--location">Затраты на питание:<span class="example__number">15 000 РУБ.</span></p>
-          <div class="compare-slider">
+        <div class="example__split">
+        <div class="example__wrapper">
+          <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+            <dl class="stats">
+              <div class="stats__item">
+                <dt class="stats__numder">
+                  <P>5 кг</P>
+                </dt>
+                <dd class="stats__description">
+                  снижение веса
+                </dd>
+              </div>
+              <div class="stats__item">
+                <dt class="stats__numder">
+                  <p>60 дней</p>
+                </dt>
+                <dd class="stats__description">
+                  затрачено времени
+                </dd>
+              </div>
+            </dl>
+          <p class="example__text example__text--location">Затраты на питание:<span class="example__number">15 000 РУБ.</span></p>
+        </div>
+          <div class="example-slider">
             <picture>
               <source type="image/jpeg" media="(min-width: 1200px)" srcset="images/cat-before-tablet@1x.jpg 1x, images/cat-before-tablet@2x.jpg 2x" width="560" height="512">
               <source type="image/jpeg" media="(min-width: 768px)" srcset="images/cat-before-tablet@1x.jpg 1x, images/cat-before-tablet@2x.jpg 2x" width="560" height="512">
-              <img class="compare-slider__item" src="images/cat-before-mobile@1x.jpg" srcset="images/cat-before-mobile@2x.jpg 2x" alt="толстый кот" width="280" height="256">
+              <img class="example-slider__item" src="images/cat-before-mobile@1x.jpg" srcset="images/cat-before-mobile@2x.jpg 2x" alt="толстый кот" width="280" height="256">
             </picture>
             <picture>
               <source type="image/jpeg" media="(min-width: 1200px)" srcset="images/cat-after-tablet@1x.jpg 1x, images/cat-after-tablet@2x.jpg 2x" width="560" height="512">
               <source type="image/jpeg" media="(min-width: 768px)" srcset="images/cat-after-tablet@1x.jpg 1x, images/cat-after-tablet@2x.jpg 2x" width="560" height="512">
-              <img class="compare-slider__item" src="images/cat-after-mobile@1x.jpg" srcset="images/cat-after-mobile@2x.jpg 2x" alt="худой кот" width="280" height="256">
+              <img class="example-slider__item" src="images/cat-after-mobile@1x.jpg" srcset="images/cat-after-mobile@2x.jpg 2x" alt="худой кот" width="280" height="256">
             </picture>
-            <p class="compare-slider__toggles">
-              <button class="compare-slider__toggle" type="button">left</button>
-              <button class="compare-slider__toggle" type="button">right</button>
+            <p class="example-slider__toggles">
+              <button class="example-slider__toggle" type="button">left</button>
+              <button class="example-slider__toggle" type="button">right</button>
             </p>
           </div>
+        </div>
       </section>
-
+  </div>
       <section class="location">
         <h3 class="visually-hidden">адрес</h3>
         <div class="location__contacts">
@@ -181,6 +187,6 @@
       </div>
     </footer>
     </footer>
-  </div>
+
 </body>
 </html>

@@ -9,10 +9,11 @@
 
 .checklist__title {
   font-family: $secondary-font;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 36px;
+  line-height: 36px;
   font-weight: 400;
   color: $base-color-title;
+  margin: 0;
 }
 
 .checklist__subtitle {
@@ -22,6 +23,7 @@
   font-weight: 400;
   color: $base-color-title;
   text-transform: uppercase;
+  margin: 0;
 }
 
 // .checklist__form {
@@ -32,9 +34,11 @@
 
 // }
 
-// .checklist__list {
-
-// }
+.checklist__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 // .checklist__item {
 

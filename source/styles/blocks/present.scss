@@ -1,5 +1,5 @@
 .present {
-  background: $bg-basic-green url("../images/prize-background-mobile@2x.jpg") no-repeat center top;
+  background: $bg-basic-green url("../../images/prize-background-mobile@1x.jpg") no-repeat center top;
   width: 280px;
   height: 280px;
 }
@@ -10,10 +10,10 @@
   color: $inline-color-text;
 }
 
-.present__title::after {
+.present__title::before {
   content: "";
-  display: inline-block;
-  background-image: url("../../images/icons/stack.svg#icon-present") no-repeat center top;
+  display: block;
+  background: url("../../images/icons/stack.svg#icon-present") no-repeat center top;
   width: 78px;
   height: 80px;
 }

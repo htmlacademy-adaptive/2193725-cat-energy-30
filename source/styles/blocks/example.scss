@@ -1,5 +1,21 @@
 .example {
   background: $special-grey;
+
+  @media (min-width: $desktop-width) {
+    background: $inline-color-text;
+  }
+}
+
+// .example__wrapper {
+
+// }
+
+.example__split {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: $special-grey;
+  }
 }
 
 .example__intro {
@@ -30,6 +46,21 @@
 // }
 
 // .example__number {
+
+
+// }
+
+// .example-slider {
+
+
+// }
+
+// .example-slider__item {
+
+
+// }
+
+// .example-slider__toggles {
 
 
 // }
