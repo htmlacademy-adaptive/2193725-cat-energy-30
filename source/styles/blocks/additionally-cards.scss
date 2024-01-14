@@ -10,9 +10,11 @@
   color: $base-color-text;
 }
 
-// .additionally-cards__list {
-
-// }
+.additionally-cards__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 // .additionally-cards__item {
 
